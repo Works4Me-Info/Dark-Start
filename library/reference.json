@@ -1,0 +1,27 @@
+{
+  "type": "startpage-widget",
+  "version": 1,
+  "widget": {
+    "title": "Reference",
+    "color": "#3fb68b",
+    "links": [
+      {
+        "title": "Wikipedia",
+        "url": "https://www.wikipedia.org/"
+      },
+      {
+        "title": "Internet Archive",
+        "url": "https://archive.org/"
+      },
+      {
+        "title": "Time zones",
+        "url": "https://www.timeanddate.com/worldclock/"
+      },
+      {
+        "title": "Unit converter",
+        "url": "https://www.unitconverters.net/"
+      }
+    ],
+    "view": "grid"
+  }
+}

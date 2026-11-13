@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="x-dns-prefetch-control" content="off">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; connect-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="robots" content="noindex, nofollow">
+<title>Dark Start: user guide</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/app.css?v=5">
+<link rel="stylesheet" href="css/guide.css?v=2">
+<script src="js/store.js?v=5" defer></script>
+<script src="js/guide.js?v=2" defer></script>
+</head>
+<body data-theme="dark" class="guide">
+<div id="bg" class="guide-bg" aria-hidden="true"></div>
+
+<header class="topbar">
+  <a class="guide-brand" href="index.html">Dark Start</a>
+  <span class="guide-crumb">User guide</span>
+  <div class="spacer"></div>
+  <a class="btn" href="index.html">Back to Dark Start</a>
+</header>
+
+<div class="guide-layout">
+
+<nav class="toc" aria-label="Contents">
+  <div class="toc-title">Contents</div>
+  <ol>
+    <li><a href="#about">What Dark Start is</a></li>
+    <li><a href="#quick">Quick start</a></li>
+    <li><a href="#pages">Pages</a></li>
+    <li><a href="#widgets">Widgets</a></li>
+    <li><a href="#links">Links</a></li>
+    <li><a href="#search">Search</a></li>
+    <li><a href="#notes">Notes</a></li>
+    <li><a href="#finding">Filter and shortcuts</a></li>
+    <li><a href="#look">Backgrounds and appearance</a></li>
+    <li><a href="#backup">Backup, new machines and sharing</a></li>
+    <li><a href="#dark">Staying dark</a></li>
+    <li><a href="#trouble">Troubleshooting</a></li>
+  </ol>
+</nav>
+
+<main class="guide-main">
+
+<section id="about" class="g-card hero">
+  <h1>Dark Start</h1>
+  <p class="lede">Your start page: tabs of link groups, search boxes and notes, arranged however you like. It works like start.me, with one difference: <strong>nothing about what you use or what you're into is collected by anyone.</strong></p>
+  <p>Dark Start is just a page and a few files on a web server. Your layout, links and notes are saved <strong>in your browser on your computer</strong>, not on the server and not with any company. Nobody else can see your setup, including whoever runs the site.</p>
+  <figure class="shot" data-img="guide/overview.png">
+    <div class="shot-ph"><span>Screenshot: the main Dark Start page, with tabs across the top and a few widgets in columns</span><code>guide/overview.png</code></div>
+  </figure>
+</section>
+
+<section id="quick" class="g-card">
+  <h2>Quick start</h2>
+  <ol class="steps">
+    <li><strong>Set it as your home page.</strong> In your browser settings, set the start or home page to this site&rsquo;s address.</li>
+    <li><strong>Make a page.</strong> Click <span class="ui">+</span> beside the tabs and give it a plain name.</li>
+    <li><strong>Add a widget.</strong> Click <span class="ui">Add widget</span>, choose <em>Links</em>, <em>Search</em> or <em>Notes</em>, and name it.</li>
+    <li><strong>Add links.</strong> Hover over a Links widget and click <span class="ui">+</span>. Paste an address, or switch to <em>Several</em> and paste a whole list.</li>
+    <li><strong>Arrange it.</strong> Drag widgets by their header and drag links wherever you want them.</li>
+    <li><strong>Take a backup.</strong> Open <span class="ui">Settings</span> (the sliders icon) and choose <span class="ui">Download backup</span>. Do this again whenever you make big changes.</li>
+  </ol>
+</section>
+
+<section id="pages" class="g-card">
+  <h2>Pages</h2>
+  <p>Pages are the tabs along the top. Use them to separate kinds of work.</p>
+  <table class="g-table">
+    <tr><th>To&hellip;</th><th>Do this</th></tr>
+    <tr><td>Add a page</td><td>Click <span class="ui">+</span> to the right of the tabs.</td></tr>
+    <tr><td>Rename a page</td><td>Double-click its tab, or use <span class="ui">&middot;&middot;&middot;</span> on the active tab and choose <em>Rename</em>.</td></tr>
+    <tr><td>Reorder pages</td><td>Drag a tab left or right.</td></tr>
+    <tr><td>Change the number of columns</td><td>Click <span class="ui">&middot;&middot;&middot;</span> on the active tab and pick 1 to 6. Use 1 column for full-width rows of icons.</td></tr>
+    <tr><td>Share a page</td><td>Click <span class="ui">&middot;&middot;&middot;</span> and choose <em>Export this page</em>. This saves a file a friend can import.</td></tr>
+    <tr><td>Delete a page</td><td>Click <span class="ui">&middot;&middot;&middot;</span> and choose <em>Delete page</em>. Everything on that page goes with it.</td></tr>
+  </table>
+  <figure class="shot" data-img="guide/tab-menu.png">
+    <div class="shot-ph"><span>Screenshot: the &middot;&middot;&middot; menu on the active tab, with the column picker visible</span><code>guide/tab-menu.png</code></div>
+  </figure>
+  <p class="tip">Page names never leave your browser, but they <em>are</em> written into backups and exported pages. Plain names like &ldquo;Daily&rdquo;, &ldquo;Projects&rdquo; and &ldquo;Reference&rdquo; are a good habit.</p>
+</section>
+
+<section id="widgets" class="g-card">
+  <h2>Widgets</h2>
+  <p>Everything on a page sits in a widget. There are three kinds:</p>
+  <div class="types">
+    <div class="type"><div class="type-name">Links</div><p>A group of links, shown as a list or as a grid of icons.</p></div>
+    <div class="type"><div class="type-name">Search</div><p>A search box that sends your search to the engine you choose, in a new tab.</p></div>
+    <div class="type"><div class="type-name">Notes</div><p>A sticky note for reminders, lists or anything else. It saves as you type.</p></div>
+  </div>
+  <figure class="shot" data-img="guide/add-widget.png">
+    <div class="shot-ph"><span>Screenshot: the Add widget window, showing the Type choice and the library list</span><code>guide/add-widget.png</code></div>
+  </figure>
+  <h3>Adding</h3>
+  <p>Click <span class="ui">Add widget</span>. Either create your own (choose the type, a name and a colour) or pick a ready-made widget from the <strong>library</strong> at the bottom of the window. Library widgets are ready-made link sets, and they arrive as your own copy to change however you like.</p>
+  <h3>Moving</h3>
+  <ul>
+    <li>Drag a widget by its <strong>header</strong> to move it up, down or into another column.</li>
+    <li>To move a widget to another page, drag it <strong>onto that page's tab</strong>, or use <span class="ui">&middot;&middot;&middot;</span> and choose <em>Move to</em>.</li>
+    <li>Press <kbd>Esc</kbd> mid-drag to cancel.</li>
+  </ul>
+  <h3>Other options</h3>
+  <p>Hover over a widget's header to see <span class="ui">&middot;&middot;&middot;</span>. From there you can rename it, change its colour, switch between list and icons, sort links A&ndash;Z, export it to share, or delete it. The arrow at the left collapses a widget to just its header, and double-clicking the name renames it.</p>
+  <figure class="shot" data-img="guide/widget-menu.png">
+    <div class="shot-ph"><span>Screenshot: the &middot;&middot;&middot; menu open on a Links widget</span><code>guide/widget-menu.png</code></div>
+  </figure>
+</section>
+
+<section id="links" class="g-card">
+  <h2>Links</h2>
+  <h3>Adding links</h3>
+  <p>Hover over a Links widget and click <span class="ui">+</span>.</p>
+  <ul>
+    <li><strong>One link:</strong> paste the address. The title is optional; if you leave it blank, the site name is used.</li>
+    <li><strong>Several:</strong> paste a list, one per line. To set a title, write it first with a bar: <code>Weekly plan | https://example.org/plan</code></li>
+  </ul>
+  <figure class="shot" data-img="guide/add-links.png">
+    <div class="shot-ph"><span>Screenshot: the Add links window on the &ldquo;Several&rdquo; tab, with a pasted list</span><code>guide/add-links.png</code></div>
+  </figure>
+  <h3>Editing, moving and removing</h3>
+  <ul>
+    <li>Hover over a link and click the <strong>pencil</strong> to change its title or address, or to delete it.</li>
+    <li>Drag links to reorder them, or drop them into another widget.</li>
+  </ul>
+  <h3>Sections: titles and lines</h3>
+  <p>To break up a long widget, add a <strong>section</strong>: a small heading with a line, or just a line if you leave the title blank. Sections drag, edit and delete like links, and in icon view they run across the full width.</p>
+  <ul>
+    <li><strong>One at a time:</strong> click <span class="ui">+</span> on the widget, choose <em>Section</em>, type a title (or leave it blank), then drag it into place.</li>
+    <li><strong>While pasting a list:</strong> in <em>Several</em>, a line starting with <code>---</code> adds a section. <code>--- Archives</code> gives a heading, and <code>---</code> on its own gives a plain line.</li>
+    <li><strong>Turning an old divider link into a section:</strong> if you used a link titled <code>-----</code> as a divider, open it with the pencil and click <span class="ui">Make section</span>.</li>
+  </ul>
+  <p><em>Sort links A&ndash;Z</em> keeps each section's links under it, and filtering keeps a heading visible while anything beneath it matches.</p>
+  <h3>List or icons</h3>
+  <p>A Links widget can show its links as a list or as a grid of large tiles, which fits more in less space. Choose this when you create the widget, or switch at any time with <span class="ui">&middot;&middot;&middot;</span> &rarr; <em>Show as icons</em> / <em>Show as list</em>.</p>
+  <figure class="shot" data-img="guide/icons.png">
+    <div class="shot-ph"><span>Screenshot: a widget in icon view on a one-column page</span><code>guide/icons.png</code></div>
+  </figure>
+  <p class="tip">The tiles show a coloured letter, not the site's own logo. That is deliberate. Fetching logos means asking an outside service for every site in your list, and that list says a lot about you. The colour is worked out from the site's address, so the same site always gets the same colour.</p>
+  <h3>What kinds of links work</h3>
+  <p>Web addresses (<code>http</code> and <code>https</code>), <code>mailto:</code> email links and <code>ftp</code>. A web page can't start programs on your computer, so links to <code>.exe</code> files, <code>C:\</code> paths or <code>\\server\share</code> folders won't work and won't be saved. For desktop tools, use a desktop shortcut.</p>
+</section>
+
+<section id="search" class="g-card">
+  <h2>Search</h2>
+  <p>A Search widget is a box with an engine picker. Type, press <kbd>Enter</kbd> (or click <span class="ui">Search</span>), and the results open in a <strong>new tab</strong>. Nothing is sent while you type: no suggestions and no autocomplete. Only the finished search goes out, and only when you press Enter.</p>
+  <p>Each Search widget remembers its own engine, so you can keep several side by side, one per engine.</p>
+  <h3>Choosing and adding engines</h3>
+  <p>Open <span class="ui">Settings</span> &rarr; <em>Search</em>. There you can:</p>
+  <ul>
+    <li>choose your <strong>default engine</strong>, which new Search widgets start with;</li>
+    <li>see the <strong>built-in engines</strong> (marked &ldquo;built-in&rdquo;) everyone gets;</li>
+    <li><strong>add your own</strong>, such as a specialist site or your workplace search.</li>
+  </ul>
+  <figure class="shot" data-img="guide/search-settings.png">
+    <div class="shot-ph"><span>Screenshot: Settings &rarr; Search, showing the engine list and the &ldquo;Add a search engine&rdquo; fields</span><code>guide/search-settings.png</code></div>
+  </figure>
+  <h3>Finding the address for a new engine</h3>
+  <ol class="steps">
+    <li>Go to the site and search for <code>test</code>.</li>
+    <li>Copy the address of the results page, for example <code>https://example.org/search?q=test</code></li>
+    <li>Replace <code>test</code> with <code>%s</code>: <code>https://example.org/search?q=%s</code></li>
+    <li>Paste that into <em>Add a search engine</em>, give it a name, and click <span class="ui">Add</span>.</li>
+  </ol>
+  <p class="tip">An engine without <code>%s</code> in its address is ignored, because the page doesn't know where to put your search words.</p>
+</section>
+
+<section id="notes" class="g-card">
+  <h2>Notes</h2>
+  <p>A Notes widget is a sticky note for the page. Click in it and type. It saves automatically and grows as you write. The widget colour tints the note, so you can colour-code them.</p>
+  <ul>
+    <li>Notes are plain text and stay in your browser. They are included in your backups.</li>
+    <li><strong>Spellcheck is switched off in notes on purpose.</strong> Some browser spellcheckers (Chrome's &ldquo;enhanced spell check&rdquo; and Microsoft Editor in Edge) send what you type to Google or Microsoft to check it.</li>
+    <li>The filter box at the top searches note text as well as links.</li>
+  </ul>
+  <figure class="shot" data-img="guide/notes.png">
+    <div class="shot-ph"><span>Screenshot: a couple of Notes widgets in different colours</span><code>guide/notes.png</code></div>
+  </figure>
+</section>
+
+<section id="finding" class="g-card">
+  <h2>Filter and shortcuts</h2>
+  <p>The <strong>Filter links</strong> box at the top narrows the current page as you type. Widgets with no matches are hidden, collapsed widgets open up if they contain a match, and Search widgets always stay visible.</p>
+  <table class="g-table">
+    <tr><th>Key</th><th>What it does</th></tr>
+    <tr><td><kbd>/</kbd></td><td>Jump to the filter box</td></tr>
+    <tr><td><kbd>Enter</kbd> in the filter</td><td>Open the first matching link</td></tr>
+    <tr><td><kbd>Esc</kbd> in the filter</td><td>Clear the filter</td></tr>
+    <tr><td><kbd>Enter</kbd> in a Search widget</td><td>Run the search in a new tab</td></tr>
+    <tr><td><kbd>Esc</kbd> while dragging</td><td>Cancel the move</td></tr>
+    <tr><td><kbd>Esc</kbd> in a window or menu</td><td>Close it</td></tr>
+  </table>
+  <h3>Locking the layout</h3>
+  <p>The <strong>padlock</strong> at the top right locks the layout. It hides the editing buttons and stops dragging, so nothing gets moved by accident. Links, searches and notes still work. Click it again to unlock.</p>
+</section>
+
+<section id="look" class="g-card">
+  <h2>Backgrounds and appearance</h2>
+  <p>Open <span class="ui">Settings</span>. Under <em>Background</em>, you can:</p>
+  <ul>
+    <li>pick one of the <strong>built-in backgrounds</strong> or <em>Plain</em>;</li>
+    <li>click <span class="ui">+ Upload</span> to use your own image (it's stored in your browser only);</li>
+    <li>use <em>Darken</em> and <em>Blur</em> to make widgets easier to read over a busy picture;</li>
+    <li>switch between <em>Dark widgets</em> and <em>Light widgets</em>;</li>
+    <li>choose whether links open in a new tab.</li>
+  </ul>
+  <figure class="shot" data-img="guide/settings-background.png">
+    <div class="shot-ph"><span>Screenshot: Settings &rarr; Background, with a custom upload selected</span><code>guide/settings-background.png</code></div>
+  </figure>
+  <p class="tip">Uploaded photos are re-saved when you add them. This shrinks big files and removes hidden details such as camera model and GPS location, which would otherwise travel inside your backups.</p>
+</section>
+
+<section id="backup" class="g-card">
+  <h2>Backup, new machines and sharing</h2>
+  <div class="callout">
+    <strong>Your setup lives in one browser on one computer.</strong> Clearing browser data, a new laptop or a rebuilt profile will lose it unless you have a backup.
+  </div>
+  <h3>The backup reminder</h3>
+  <p>Next to the filter box is a small backup status, such as <span class="ui">Backed up 3 days ago</span>. It gets brighter the longer you have changes that aren't in a backup:</p>
+  <table class="g-table">
+    <tr><th>Looks like</th><th>Means</th></tr>
+    <tr><td>Faint, green dot</td><td>Nothing has changed since your last backup.</td></tr>
+    <tr><td>Faint grey</td><td>You have recent changes. No rush.</td></tr>
+    <tr><td>White</td><td>Changes have been waiting a while.</td></tr>
+    <tr><td>Amber outline</td><td>Worth backing up soon.</td></tr>
+    <tr><td>Solid amber, &ldquo;Back up now&rdquo;</td><td>Overdue. A dot also appears on the Settings icon. Click the &times; to be reminded again in 3 days.</td></tr>
+  </table>
+  <p>Click it at any time to download a backup straight away. Switching tabs or locking the layout doesn't count as a change; adding, moving or editing anything does, including notes.</p>
+  <figure class="shot" data-img="guide/backup-status.png">
+    <div class="shot-ph"><span>Screenshot: the backup status next to the filter box, ideally the amber &ldquo;Back up now&rdquo; state</span><code>guide/backup-status.png</code></div>
+  </figure>
+  <h3>Taking a backup</h3>
+  <p>Click the backup status, or use <span class="ui">Settings</span> &rarr; <span class="ui">Download backup</span>. This saves one file containing all your pages, widgets, notes and settings, plus your uploaded backgrounds if the box is ticked. Keep it somewhere you control, such as your own documents folder or a USB stick.</p>
+  <h3>Moving to another computer</h3>
+  <p>On the new machine, open Dark Start, go to <span class="ui">Settings</span> &rarr; <span class="ui">Import a file</span>, and choose your backup. Restoring a backup <strong>replaces</strong> whatever is there.</p>
+  <h3>Sharing with friends</h3>
+  <ul>
+    <li><strong>A single widget:</strong> <span class="ui">&middot;&middot;&middot;</span> on the widget &rarr; <em>Export widget</em>.</li>
+    <li><strong>A whole page:</strong> <span class="ui">&middot;&middot;&middot;</span> on the tab &rarr; <em>Export this page</em>.</li>
+    <li>Your friend imports the file through <span class="ui">Settings</span> &rarr; <span class="ui">Import a file</span>. Shared widgets and pages are <strong>added</strong> next to theirs and never replace anything.</li>
+  </ul>
+  <h3>Bringing links across from start.me or a browser</h3>
+  <p>Export your bookmarks as an HTML file from the browser or old start page, then import it the same way. Each bookmark folder becomes a widget on a new page called &ldquo;Imported&rdquo;. Once you're happy, <strong>delete your old start.me pages and account</strong>. Moving to Dark Start doesn't remove what is already stored there.</p>
+  <figure class="shot" data-img="guide/backup.png">
+    <div class="shot-ph"><span>Screenshot: Settings &rarr; Backup and sharing</span><code>guide/backup.png</code></div>
+  </figure>
+</section>
+
+<section id="dark" class="g-card dark">
+  <h2>Staying dark</h2>
+  <p class="lede">Commercial start pages hold every link, page title and note you create, along with where you connect from. Taken together, that's a clear picture of who you are and what you're into. Dark Start is built so that picture stays on your own computer.</p>
+
+  <h3>What Dark Start does for you</h3>
+  <div class="leak-grid">
+    <div class="leak"><div class="leak-h">No outside companies</div><p>Dark Start is a plain page with no sign-up. There's no account, no cloud storage and no company holding your pages, links or notes.</p></div>
+    <div class="leak"><div class="leak-h">Your setup stays on your machine</div><p>Layouts, links, notes and backgrounds are stored in your browser. The site only hands out the page itself and its built-in files. It never receives what you add.</p></div>
+    <div class="leak"><div class="leak-h">Nothing loaded from elsewhere</div><p>The page is locked so it can only load files from this site itself: no external fonts, scripts, analytics or images. If something from outside were ever added by mistake, the browser would block it.</p></div>
+    <div class="leak"><div class="leak-h">No site logos</div><p>Showing logos would mean asking Google or a similar service for an icon for every site in your lists. That would hand them your whole list. Coloured letters are used instead.</p></div>
+    <div class="leak"><div class="leak-h">No &ldquo;where you came from&rdquo;</div><p>When you click a link, browsers normally tell the destination site which page sent you. Dark Start switches that off, so sites can't see that the visit came from here.</p></div>
+    <div class="leak"><div class="leak-h">No advance look-ups</div><p>Browsers sometimes look up every linked site ahead of time to speed things up, which would show the whole list to your internet provider. That's switched off.</p></div>
+    <div class="leak"><div class="leak-h">No previews or titles fetched</div><p>Dark Start never visits a site to fetch its title or a preview. A site only hears from you when you click it.</p></div>
+    <div class="leak"><div class="leak-h">Quiet search</div><p>Nothing goes to a search engine while you type. The search is sent only when you press Enter, in a new tab, without saying where it came from. The browser doesn't save search boxes in its form history.</p></div>
+    <div class="leak"><div class="leak-h">Private notes</div><p>Spellcheck is off in notes, so browser features don't send your text to Google or Microsoft for checking.</p></div>
+    <div class="leak"><div class="leak-h">Clean images</div><p>Uploaded backgrounds are stripped of hidden details (camera, date, GPS location) before they're stored or backed up.</p></div>
+    <div class="leak"><div class="leak-h">Safe links only</div><p>Only normal web, email and FTP links are accepted. Links that try to run code are rejected, including in imported files.</p></div>
+    <div class="leak"><div class="leak-h">Not findable</div><p>The page asks search engines not to index it and can't be embedded inside other sites.</p></div>
+  </div>
+
+  <h3>What still depends on you</h3>
+  <ul class="checklist">
+    <li><strong>The site host sees that you visited.</strong> Like any website, this site&rsquo;s host records the internet address of whoever loads the page. That's all it sees: never your links, notes, searches or pages.</li>
+    <li><strong>The sites you visit still see your connection.</strong> Dark Start hides where a click came from, not who is clicking. If you don't want sites to see your home or work connection, use a VPN.</li>
+    <li><strong>Search engines see what you search for.</strong> Choose the engine to suit the search. Startpage and DuckDuckGo keep less about you than Google or Bing.</li>
+    <li><strong>Treat backups and exports as working files.</strong> They hold your links and notes in readable text. Store them somewhere private, and only send exports to people you trust.</li>
+    <li><strong>Watch browser sign-in and sync.</strong> If your browser is signed in to a personal Google or Microsoft account with sync on, your history, including the sites you open from here, can sync to that account.</li>
+    <li><strong>Leave start-page extensions alone.</strong> New-tab and start-page add-ons often upload your bookmarks and browsing. Dark Start replaces them.</li>
+    <li><strong>Clear out the old services.</strong> Delete your pages and accounts on start.me or similar sites once you've moved across.</li>
+  </ul>
+</section>
+
+<section id="trouble" class="g-card">
+  <h2>Troubleshooting</h2>
+  <details>
+    <summary>My pages have disappeared</summary>
+    <p>Your setup belongs to one browser at one exact address. It won't appear if you're in a different browser, on a different computer, or using a slightly different address (for example <code>http://</code> instead of <code>https://</code>, or a <code>www.</code> version of the address). Go back to your usual browser and address, or restore your latest backup. If your browser data was cleared, the backup is the only way back.</p>
+  </details>
+  <details>
+    <summary>A message says my changes won't be kept</summary>
+    <p>The browser is blocking local storage, for example in a private window or under a strict setting. Use a normal window. If you've already made changes, download a backup before closing the page.</p>
+  </details>
+  <details>
+    <summary>A link won't save</summary>
+    <p>Only web (<code>http</code> and <code>https</code>), <code>mailto:</code> and <code>ftp</code> links are accepted. Check for a typo in the address. Links to programs, files or shared folders aren't supported (see <a href="#links">Links</a>).</p>
+  </details>
+  <details>
+    <summary>A link should open a desktop application</summary>
+    <p>Web pages can't start programs on your computer, and that protection is deliberate. Some applications, such as Teams or Zoom, register their own type of link (<code>ms-teams:</code>, for example). Dark Start doesn't accept those links at the moment.</p>
+  </details>
+  <details>
+    <summary>My search engine doesn't appear</summary>
+    <p>Its address needs <code>%s</code> where the search words go. See <a href="#search">Finding the address for a new engine</a>.</p>
+  </details>
+  <details>
+    <summary>I can't drag anything</summary>
+    <p>The layout is probably locked. Click the padlock at the top right.</p>
+  </details>
+  <details>
+    <summary>Why don't I see the sites' own logos?</summary>
+    <p>On purpose. Logos would have to be fetched from an outside service, which would reveal every site in your lists. See <a href="#dark">Staying dark</a>.</p>
+  </details>
+</section>
+
+<footer class="guide-foot"><a href="#about">Back to top</a> &middot; <a href="index.html">Back to Dark Start</a></footer>
+
+</main>
+</div>
+</body>
+</html>

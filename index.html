@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Leak controls (also sent as HTTP headers by web.config) -->
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="x-dns-prefetch-control" content="off">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; connect-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="robots" content="noindex, nofollow">
+<title>Dark Start</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/app.css?v=7">
+<script src="js/store.js?v=7" defer></script>
+<script src="js/drag.js?v=7" defer></script>
+<script src="js/app.js?v=7" defer></script>
+</head>
+<body data-theme="dark">
+<div id="bg" aria-hidden="true"></div>
+
+<header class="topbar">
+  <nav id="tabs" class="tabs" role="tablist" aria-label="Pages"></nav>
+  <button id="addTab" class="icon-btn edit-only" type="button" title="Add page" aria-label="Add page"></button>
+  <div class="spacer"></div>
+  <div id="backupStatus" class="backup-status" role="status" aria-live="polite"></div>
+  <input id="filter" class="filter" type="search" placeholder="Filter links  /" autocomplete="off" spellcheck="false" aria-label="Filter links on this page">
+  <button id="addWidget" class="btn edit-only" type="button">Add widget</button>
+  <button id="lockBtn" class="icon-btn" type="button"></button>
+  <button id="settingsBtn" class="icon-btn" type="button" title="Settings and backup" aria-label="Settings and backup"></button>
+</header>
+
+<main id="board" class="board"></main>
+
+<div id="modal-root"></div>
+<div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>

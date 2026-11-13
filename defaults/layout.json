@@ -1,0 +1,72 @@
+{
+  "tabs": [
+    {
+      "name": "Home",
+      "ncols": 4,
+      "cols": [
+        [
+          {
+            "title": "Dark Start",
+            "color": "#a371f7",
+            "links": [
+              {
+                "title": "User guide",
+                "url": "guide.html"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "title": "Reference",
+            "color": "#3fb68b",
+            "links": [
+              {
+                "title": "Wikipedia",
+                "url": "https://www.wikipedia.org/"
+              },
+              {
+                "title": "Internet Archive",
+                "url": "https://archive.org/"
+              },
+              {
+                "title": "Time zones",
+                "url": "https://www.timeanddate.com/worldclock/"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "title": "My links",
+            "color": "#e0a03a",
+            "links": []
+          }
+        ],
+        [
+          {
+            "type": "search",
+            "title": "Search",
+            "color": "#2fb7c4"
+          },
+          {
+            "type": "notes",
+            "title": "Start here",
+            "color": "#d16ba5",
+            "text": "Welcome to Dark Start.\n\nEverything you add here is saved in this browser on this computer, and nowhere else. No account, no tracking, nothing sent to a server.\n\nThat also means clearing your browser data clears your pages. Click the backup status next to the filter box now and then to download a backup.\n\nThe User guide (top left) explains everything. Delete this note when you're done with it."
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Projects",
+      "ncols": 4,
+      "cols": [
+        [],
+        [],
+        [],
+        []
+      ]
+    }
+  ]
+}

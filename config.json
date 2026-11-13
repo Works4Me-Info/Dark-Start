@@ -1,0 +1,67 @@
+{
+  "title": "Dark Start",
+  "defaultScheme": "https",
+  "defaultLayout": "defaults/layout.json",
+  "defaultBackground": "base-1",
+  "backupReminderDays": 7,
+  "backgrounds": [
+    {
+      "id": "base-1",
+      "name": "Dusk",
+      "file": "backgrounds/base-1.jpg",
+      "thumb": "backgrounds/thumbs/base-1.jpg"
+    },
+    {
+      "id": "base-2",
+      "name": "Slate",
+      "file": "backgrounds/base-2.jpg",
+      "thumb": "backgrounds/thumbs/base-2.jpg"
+    },
+    {
+      "id": "base-3",
+      "name": "Forest",
+      "file": "backgrounds/base-3.jpg",
+      "thumb": "backgrounds/thumbs/base-3.jpg"
+    }
+  ],
+  "searchEngines": [
+    {
+      "id": "ddg",
+      "name": "DuckDuckGo",
+      "url": "https://duckduckgo.com/?q=%s"
+    },
+    {
+      "id": "startpage",
+      "name": "Startpage",
+      "url": "https://www.startpage.com/do/search?q=%s"
+    },
+    {
+      "id": "brave",
+      "name": "Brave Search",
+      "url": "https://search.brave.com/search?q=%s"
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "url": "https://www.google.com/search?q=%s"
+    },
+    {
+      "id": "bing",
+      "name": "Bing",
+      "url": "https://www.bing.com/search?q=%s"
+    }
+  ],
+  "defaultEngine": "ddg",
+  "library": [
+    {
+      "name": "Dark Start",
+      "description": "The user guide",
+      "file": "library/dark-start.json"
+    },
+    {
+      "name": "Reference",
+      "description": "General reference sites",
+      "file": "library/reference.json"
+    }
+  ]
+}

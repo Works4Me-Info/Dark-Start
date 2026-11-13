@@ -1,0 +1,14 @@
+{
+  "type": "startpage-widget",
+  "version": 1,
+  "widget": {
+    "title": "Dark Start",
+    "color": "#a371f7",
+    "links": [
+      {
+        "title": "User guide",
+        "url": "guide.html"
+      }
+    ]
+  }
+}
