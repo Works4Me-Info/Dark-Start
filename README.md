@@ -14,7 +14,7 @@ Live at **[darkstart.net](https://darkstart.net)**.
 
 ## Why it exists
 
-Hosted start pages store every link, page title and note you create on their servers, along with where you connect from. For most people that's fine. For anyone whose bookmarks reveal their work, interests or investigations, that list is a detailed profile.
+Hosted start pages store every link, page title and note you create on their servers, along with where you connect from. For most people that's fine. For anyone whose bookmarks reveal their work, interests or research, that list is a detailed profile.
 
 Dark Start was built for a team that needed a start page without that profile, and is now shared for anyone who wants the same.
 
